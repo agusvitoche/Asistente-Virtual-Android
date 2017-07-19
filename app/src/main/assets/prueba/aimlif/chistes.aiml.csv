@@ -1,0 +1,4 @@
+0,CUENTAME UN CHISTE,*,*,<think><set name="topic">chiste</set></think>#Newline			<random> #Newline				<li>#Newline					Mira mamá#Comma ya me están creciendo los pechos. Si#Comma ya he visto#Comma tienes que empezar adelgazar un poco Manuel. ¿Te cuento otro?#Newline				</li>#Newline				<li>#Newline					Había un chiste tan#Comma pero tan malo#Comma que le pegaba a los chistes buenos. ¿Te cuento otro?#Newline				</li>#Newline				<li>#Newline					Jesucristo está en la cruz gritando: Malditos hijos de ..#Comma Romanos#Comma Cabrones.. en esto que se acerca Pedro corriendo y le dice: Maestro#Comma maestro que viene la prensa. Señor#Comma perdónales porqué no saben lo que hacen. ¿Te cuento otro?#Newline				</li>#Newline			</random>,chistes.aiml
+0,*,*,CHISTE,No reconocido topic=chiste.,chistes.aiml
+0,SI,*,CHISTE,<srai>CUENTAME UN CHISTE</srai>,chistes.aiml
+0,NO,*,CHISTE,De acuerdo.,chistes.aiml

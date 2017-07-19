@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+	<category>
+        <pattern>ENSEÑAME LAS ALARMAS</pattern>
+        <template>
+			<srai>VER ALARMAS</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ENSEÑAME TODAS LAS ALARMAS</pattern>
+        <template>
+			<srai>VER ALARMAS</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>VER TODAS LAS ALARMAS</pattern>
+        <template>
+			<srai>VER ALARMAS</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>PON UNA ALARMA A LAS * Y *</pattern>
+        <template>
+			<srai>ALARMA A LAS <star index="1"/> Y <star index="2"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>PON UNA ALARMA A LAS * Y CUARTO</pattern>
+        <template>
+			<srai>ALARMA A LAS <star index="1"/> Y 15</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>PON UNA ALARMA A LAS * Y MEDIA</pattern>
+        <template>
+			<srai>ALARMA A LAS <star index="1"/> Y 30</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>PUEDES PONER UNA ALARMA A LAS * Y *</pattern>
+        <template>
+			<srai>ALARMA A LAS <star index="1"/> Y <star index="2"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>PUEDES PONER UNA ALARMA A LAS * Y CUARTO</pattern>
+        <template>
+			<srai>ALARMA A LAS <star index="1"/> Y 15</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>PUEDES PONER UNA ALARMA A LAS * Y MEDIA</pattern>
+        <template>
+			<srai>ALARMA A LAS <star index="1"/> Y 30</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>NECESITO UNA ALARMA A LAS * Y *</pattern>
+        <template>
+			<srai>ALARMA A LAS <star index="1"/> Y <star index="2"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>NECESITO UNA ALARMA A LAS * Y CUARTO</pattern>
+        <template>
+			<srai>ALARMA A LAS <star index="1"/> Y 15</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>NECESITO UNA ALARMA A LAS * Y MEDIA</pattern>
+        <template>
+			<srai>ALARMA A LAS <star index="1"/> Y 30</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>TEMPORIZADOR DE * SEGUNDOS</pattern>
+        <template>
+			<srai>TEMPORIZADOR DE <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>PON UN TEMPORIZADOR DE *</pattern>
+        <template>
+			<srai>TEMPORIZADOR DE <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>PON UN TEMPORIZADOR DE * SEGUNDOS</pattern>
+        <template>
+			<srai>TEMPORIZADOR DE <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>AVISAME EN * SEGUNDOS</pattern>
+        <template>
+			<srai>TEMPORIZADOR DE <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>AVÍSAME EN * SEGUNDOS</pattern>
+        <template>
+			<srai>TEMPORIZADOR DE <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE LA CÁMARA</pattern>
+        <template>
+			<srai>SACAR FOTO</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRIR CÁMARA</pattern>
+        <template>
+			<srai>SACAR FOTO</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRIR LA CÁMARA</pattern>
+        <template>
+			<srai>SACAR FOTO</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>FOTO</pattern>
+        <template>
+			<srai>SACAR FOTO</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>TOMAR FOTO</pattern>
+        <template>
+			<srai>SACAR FOTO</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>VIDEO</pattern>
+        <template>
+			<srai>GRABAR VIDEO</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>VÍDEO</pattern>
+        <template>
+			<srai>GRABAR VIDEO</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>GRABAR VÍDEO</pattern>
+        <template>
+			<srai>GRABAR VIDEO</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>MARCAR TELÉFONO *</pattern>
+        <template>
+			<srai>MARCAR TELEFONO <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>MARCAR NUMERO DE TELEFONO *</pattern>
+        <template>
+			<srai>MARCAR TELEFONO <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>MARCAR NÚMERO DE TELÉFONO *</pattern>
+        <template>
+			<srai>MARCAR TELEFONO <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>MARCAR NUMERO DE TELÉFONO *</pattern>
+        <template>
+			<srai>MARCAR TELEFONO <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>MARCAR NÚMERO DE TELEFONO *</pattern>
+        <template>
+			<srai>MARCAR TELEFONO <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>MARCA EL TELEFONO *</pattern>
+        <template>
+			<srai>MARCAR TELEFONO <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>MARCA EL NÚMERO DE TELEFONO *</pattern>
+        <template>
+			<srai>MARCAR TELEFONO <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>MARCA EL NUMERO DE TELEFONO *</pattern>
+        <template>
+			<srai>MARCAR TELEFONO <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>MARCA EL NÚMERO DE TELEFONO *</pattern>
+        <template>
+			<srai>MARCAR TELEFONO <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>MARCA EL NUMERO DE TELEFONO *</pattern>
+        <template>
+			<srai>MARCAR TELEFONO <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>DIAL *</pattern>
+        <template>
+			<srai>MARCAR TELEFONO <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>LLAMAR TELÉFONO *</pattern>
+        <template>
+			<srai>LLAMAR TELEFONO <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>LLAMAR NÚMERO DE TELÉFONO *</pattern>
+        <template>
+			<srai>LLAMAR TELEFONO <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>LLAMAR NUMERO DE TELEFONO *</pattern>
+        <template>
+			<srai>LLAMAR TELEFONO <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>LLAMAR NÚMERO DE TELEFONO *</pattern>
+        <template>
+			<srai>LLAMAR TELEFONO <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>LLAMAR NUMERO DE TELÉFONO *</pattern>
+        <template>
+			<srai>LLAMAR TELEFONO <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>LLAMAR AL TELÉFONO *</pattern>
+        <template>
+			<srai>LLAMAR TELEFONO <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>LLAMAR AL TELEFONO *</pattern>
+        <template>
+			<srai>LLAMAR TELEFONO <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>LLAMA AL TELÉFONO *</pattern>
+        <template>
+			<srai>LLAMAR TELEFONO <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>LLAMA AL TELEFONO *</pattern>
+        <template>
+			<srai>LLAMAR TELEFONO <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>LLAMA AL NÚMERO DE TELÉFONO *</pattern>
+        <template>
+			<srai>LLAMAR TELEFONO <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>LLAMA AL NUMERO DE TELEFONO *</pattern>
+        <template>
+			<srai>LLAMAR TELEFONO <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>LLAMA AL NÚMERO DE TELEFONO *</pattern>
+        <template>
+			<srai>LLAMAR TELEFONO <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>LLAMA AL NUMERO DE TELÉFONO *</pattern>
+        <template>
+			<srai>LLAMAR TELEFONO <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>BUSCAR EN INTERNET *</pattern>
+        <template>
+			<srai>BUSCA EN INTERNET <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>BUSCAR *</pattern>
+        <template>
+			<srai>BUSCA EN INTERNET <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>BUSCA EN GOOGLE *</pattern>
+        <template>
+			<srai>BUSCA EN INTERNET <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>BUSCAR EN GOOGLE *</pattern>
+        <template>
+			<srai>BUSCA EN INTERNET <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>DEFINIR *</pattern>
+        <template>
+			<srai>DEFINE <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>BUSCA LA DEFINICIÓN DE *</pattern>
+        <template>
+			<srai>DEFINE <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>BUSCA LA DEFINICION DE *</pattern>
+        <template>
+			<srai>DEFINE <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>QUE SIGNIFICA *</pattern>
+        <template>
+			<srai>DEFINE <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>QUÉ SIGNIFICA *</pattern>
+        <template>
+			<srai>DEFINE <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE LA URL *</pattern>
+        <template>
+			<srai>ABRIR URL <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE ESTA DIRECCIÓN WEB *</pattern>
+        <template>
+			<srai>ABRIR URL <star index="1"/></srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>CONFIGURACIÓN</pattern>
+        <template>
+			<srai>CONFIGURACION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>CONFIGURACIÓN WIFI</pattern>
+        <template>
+			<srai>CONFIGURACION WIFI</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>CONFIGURACIÓN MODO AVIÓN</pattern>
+        <template>
+			<srai>CONFIGURACION MODO AVION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>CONFIGURACIÓN MODO AVION</pattern>
+        <template>
+			<srai>CONFIGURACION MODO AVION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>CONFIGURACION MODO AVIÓN</pattern>
+        <template>
+			<srai>CONFIGURACION MODO AVION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>CONFIGURACIÓN BLUETOOTH</pattern>
+        <template>
+			<srai>CONFIGURACION BLUETOOTH</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>CONFIGURACIÓN FECHA</pattern>
+        <template>
+			<srai>CONFIGURACION FECHA</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>CONFIGURACIÓN TECLADO</pattern>
+        <template>
+			<srai>CONFIGURACION TECLADO</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>CONFIGURACIÓN PANTALLA</pattern>
+        <template>
+			<srai>CONFIGURACION PANTALLA</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>CONFIGURACIÓN SEGURIDAD</pattern>
+        <template>
+			<srai>CONFIGURACION SEGURIDAD</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE CONFIGURACIÓN</pattern>
+        <template>
+			<srai>CONFIGURACION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE CONFIGURACION</pattern>
+        <template>
+			<srai>CONFIGURACION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE CONFIGURACIÓN WIFI</pattern>
+        <template>
+			<srai>CONFIGURACION WIFI</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE CONFIGURACION WIFI</pattern>
+        <template>
+			<srai>CONFIGURACION WIFI</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE CONFIGURACIÓN MODO AVIÓN</pattern>
+        <template>
+			<srai>CONFIGURACION MODO AVION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE CONFIGURACION MODO AVION</pattern>
+        <template>
+			<srai>CONFIGURACION MODO AVION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE CONFIGURACIÓN MODO AVION</pattern>
+        <template>
+			<srai>CONFIGURACION MODO AVION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE CONFIGURACION MODO AVIÓN</pattern>
+        <template>
+			<srai>CONFIGURACION MODO AVION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE CONFIGURACIÓN BLUETOOTH</pattern>
+        <template>
+			<srai>CONFIGURACION BLUETOOTH</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE CONFIGURACION BLUETOOTH</pattern>
+        <template>
+			<srai>CONFIGURACION BLUETOOTH</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE CONFIGURACIÓN FECHA</pattern>
+        <template>
+			<srai>CONFIGURACION FECHA</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE CONFIGURACION FECHA</pattern>
+        <template>
+			<srai>CONFIGURACION FECHA</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE CONFIGURACIÓN TECLADO</pattern>
+        <template>
+			<srai>CONFIGURACION TECLADO</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE CONFIGURACIÓN TECLADO</pattern>
+        <template>
+			<srai>CONFIGURACION TECLADO</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE CONFIGURACIÓN PANTALLA</pattern>
+        <template>
+			<srai>CONFIGURACION PANTALLA</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE CONFIGURACIÓN PANTALLA</pattern>
+        <template>
+			<srai>CONFIGURACION PANTALLA</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE CONFIGURACIÓN SEGURIDAD</pattern>
+        <template>
+			<srai>CONFIGURACION SEGURIDAD</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE CONFIGURACIÓN SEGURIDAD</pattern>
+        <template>
+			<srai>CONFIGURACION SEGURIDAD</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE LA CONFIGURACIÓN</pattern>
+        <template>
+			<srai>CONFIGURACION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE LA CONFIGURACION</pattern>
+        <template>
+			<srai>CONFIGURACION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE LA CONFIGURACIÓN DEL WIFI</pattern>
+        <template>
+			<srai>CONFIGURACION WIFI</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE LA CONFIGURACION DEL WIFI</pattern>
+        <template>
+			<srai>CONFIGURACION WIFI</srai>
+        </template>
+    </category>
+
+	<category>
+        <pattern>ABRE LA CONFIGURACIÓN DEL MODO AVIÓN</pattern>
+        <template>
+			<srai>CONFIGURACION MODO AVION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE LA CONFIGURACION DEL MODO AVION</pattern>
+        <template>
+			<srai>CONFIGURACION MODO AVION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE LA CONFIGURACIÓN DEL MODO AVION</pattern>
+        <template>
+			<srai>CONFIGURACION MODO AVION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE LA CONFIGURACION DEL MODO AVIÓN</pattern>
+        <template>
+			<srai>CONFIGURACION MODO AVION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE LA CONFIGURACIÓN DEL BLUETOOTH</pattern>
+        <template>
+			<srai>CONFIGURACION BLUETOOTH</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE LA CONFIGURACION DEL BLUETOOTH</pattern>
+        <template>
+			<srai>CONFIGURACION BLUETOOTH</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE LA CONFIGURACIÓN DE FECHA</pattern>
+        <template>
+			<srai>CONFIGURACION FECHA</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE LA CONFIGURACION DE FECHA</pattern>
+        <template>
+			<srai>CONFIGURACION FECHA</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE LA CONFIGURACIÓN DE TECLADO</pattern>
+        <template>
+			<srai>CONFIGURACION TECLADO</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE LA CONFIGURACIÓN DE TECLADO</pattern>
+        <template>
+			<srai>CONFIGURACION TECLADO</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE LA CONFIGURACIÓN DE PANTALLA</pattern>
+        <template>
+			<srai>CONFIGURACION PANTALLA</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE LA CONFIGURACIÓN DE PANTALLA</pattern>
+        <template>
+			<srai>CONFIGURACION PANTALLA</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE LA CONFIGURACIÓN DE SEGURIDAD</pattern>
+        <template>
+			<srai>CONFIGURACION SEGURIDAD</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE LA CONFIGURACIÓN DE SEGURIDAD</pattern>
+        <template>
+			<srai>CONFIGURACION SEGURIDAD</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRIR LA CONFIGURACIÓN</pattern>
+        <template>
+			<srai>CONFIGURACION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRIR LA CONFIGURACION</pattern>
+        <template>
+			<srai>CONFIGURACION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRIR LA CONFIGURACIÓN DEL WIFI</pattern>
+        <template>
+			<srai>CONFIGURACION WIFI</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRIR LA CONFIGURACION DEL WIFI</pattern>
+        <template>
+			<srai>CONFIGURACION WIFI</srai>
+        </template>
+    </category>
+
+	<category>
+        <pattern>ABRIR LA CONFIGURACIÓN DEL MODO AVIÓN</pattern>
+        <template>
+			<srai>CONFIGURACION MODO AVION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRIR LA CONFIGURACION DEL MODO AVION</pattern>
+        <template>
+			<srai>CONFIGURACION MODO AVION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRIR LA CONFIGURACIÓN DEL MODO AVION</pattern>
+        <template>
+			<srai>CONFIGURACION MODO AVION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRIR LA CONFIGURACION DEL MODO AVIÓN</pattern>
+        <template>
+			<srai>CONFIGURACION MODO AVION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRIR LA CONFIGURACIÓN DEL BLUETOOTH</pattern>
+        <template>
+			<srai>CONFIGURACION BLUETOOTH</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRIR LA CONFIGURACION DEL BLUETOOTH</pattern>
+        <template>
+			<srai>CONFIGURACION BLUETOOTH</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRIR LA CONFIGURACIÓN DE FECHA</pattern>
+        <template>
+			<srai>CONFIGURACION FECHA</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRIR LA CONFIGURACION DE FECHA</pattern>
+        <template>
+			<srai>CONFIGURACION FECHA</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRIR LA CONFIGURACIÓN DE TECLADO</pattern>
+        <template>
+			<srai>CONFIGURACION TECLADO</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRIR LA CONFIGURACIÓN DE TECLADO</pattern>
+        <template>
+			<srai>CONFIGURACION TECLADO</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRIR LA CONFIGURACIÓN DE PANTALLA</pattern>
+        <template>
+			<srai>CONFIGURACION PANTALLA</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRIR LA CONFIGURACIÓN DE PANTALLA</pattern>
+        <template>
+			<srai>CONFIGURACION PANTALLA</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRIR LA CONFIGURACIÓN DE SEGURIDAD</pattern>
+        <template>
+			<srai>CONFIGURACION SEGURIDAD</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRIR LA CONFIGURACIÓN DE SEGURIDAD</pattern>
+        <template>
+			<srai>CONFIGURACION SEGURIDAD</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>CONFIGURACIÓN DEL DISPOSITIVO</pattern>
+        <template>
+			<srai>CONFIGURACION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE CONFIGURACIÓN DEL DISPOSITIVO</pattern>
+        <template>
+			<srai>CONFIGURACION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRIR CONFIGURACIÓN DEL DISPOSITIVO</pattern>
+        <template>
+			<srai>CONFIGURACION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>CONFIGURACION DEL DISPOSITIVO</pattern>
+        <template>
+			<srai>CONFIGURACION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE CONFIGURACION DEL DISPOSITIVO</pattern>
+        <template>
+			<srai>CONFIGURACION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRIR CONFIGURACION DEL DISPOSITIVO</pattern>
+        <template>
+			<srai>CONFIGURACION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>AJUSTES</pattern>
+        <template>
+			<srai>CONFIGURACION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>AJUSTES DEL DISPOSITIVO</pattern>
+        <template>
+			<srai>CONFIGURACION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRE AJUSTES DEL DISPOSITIVO</pattern>
+        <template>
+			<srai>CONFIGURACION</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRIR AJUSTES DEL DISPOSITIVO</pattern>
+        <template>
+			<srai>CONFIGURACION</srai>
+        </template>
+    </category>
+	
+</aiml>

@@ -1,0 +1,20 @@
+0,ABRIR WHATSAPP,*,*,intentWhatsApp,comandos.aiml
+0,ALARMA A LAS * Y *,*,*,intentAlarma:<star index="1"/>:<star index="2"/>,comandos.aiml
+0,TEMPORIZADOR DE *,*,*,intentTemporizador:<star/>,comandos.aiml
+0,VER ALARMAS,*,*,intentVerAlarmas,comandos.aiml
+0,SACAR FOTO,*,*,intentFoto,comandos.aiml
+0,GRABAR VIDEO,*,*,intentVideo,comandos.aiml
+0,MARCAR TELEFONO *,*,*,intentDial:<star/>,comandos.aiml
+0,LLAMAR A TELEFONO *,*,*,intentLlamada:<star/>,comandos.aiml
+0,BUSCA EN INTERNET *,*,*,intentWebSearch:<star/>,comandos.aiml
+0,BUSCA EN YOUTUBE *,*,*,intentYoutubeSearch:<star/>,comandos.aiml
+0,DEFINE *,*,*,intentWebDefine:<star/>,comandos.aiml
+0,ABRIR URL *,*,*,intentWebPage:<star/>,comandos.aiml
+0,CONFIGURACION,*,*,intentSettings,comandos.aiml
+0,CONFIGURACION WIFI,*,*,intentWifiSettings,comandos.aiml
+0,CONFIGURACION MODO AVION,*,*,intentAirplaneModeSettings,comandos.aiml
+0,CONFIGURACION BLUETOOTH,*,*,intentBluetoothSettings,comandos.aiml
+0,CONFIGURACION FECHA,*,*,intentDateSettings,comandos.aiml
+0,CONFIGURACION TECLADO,*,*,intentInputMethodSettings,comandos.aiml
+0,CONFIGURACION PANTALLA,*,*,intentDisplaySettings,comandos.aiml
+0,CONFIGURACION SEGURIDAD,*,*,intentSecuritySettings,comandos.aiml

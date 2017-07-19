@@ -1,0 +1,15 @@
+amarillo
+azul
+blanco
+cian
+fucsia
+magenta
+marrón
+morado
+naranja
+negro
+púrpura
+rojo
+rosa
+verde
+violeta

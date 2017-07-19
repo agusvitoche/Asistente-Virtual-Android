@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+	<category>
+		<pattern>*</pattern>
+		<template>
+			No reconocido.
+			<!-- tema de conversación
+			<li>¿Cuál es tu color favorito?</li>-->
+		</template>
+	</category>
+	<!-- responder con temas de conversación
+		crear categorias para respuesta a tema de conversación con that
+		<category>
+			<pattern>*</pattern>
+			<that>CUÁL ES TU COLOR FAVORITO</that>
+			<template> 
+				<random>
+					<li>Así que tu color favorito es el <star/>.</li>
+				</random>
+			</template>
+		</category>-->
+</aiml>

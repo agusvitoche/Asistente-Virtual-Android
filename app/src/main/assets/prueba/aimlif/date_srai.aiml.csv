@@ -1,0 +1,10 @@
+0,EN QUÉ AÑO ESTAMOS,*,*,<srai>AÑO</srai>,date_srai.aiml
+0,EN QUE AÑO ESTAMOS,*,*,<srai>AÑO</srai>,date_srai.aiml
+0,EN QUÉ MES ESTAMOS,*,*,<srai>MES</srai>,date_srai.aiml
+0,EN QUE MES ESTAMOS,*,*,<srai>MES</srai>,date_srai.aiml
+0,QUÉ DÍA ES HOY,*,*,<srai>DÍA</srai>,date_srai.aiml
+0,QUÉ DIA ES HOY,*,*,<srai>DÍA</srai>,date_srai.aiml
+0,QUE DÍA ES HOY,*,*,<srai>DÍA</srai>,date_srai.aiml
+0,QUE DIA ES HOY,*,*,<srai>DÍA</srai>,date_srai.aiml
+0,QUÉ HORA ES,*,*,<srai>HORA</srai>,date_srai.aiml
+0,QUE HORA ES,*,*,<srai>HORA</srai>,date_srai.aiml

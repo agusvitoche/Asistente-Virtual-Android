@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!--OBTENER VALORES SOBRE EL USUARIO-->
+	<!--si alguna variable no tiene valor, decir que no se sabe-->
+	<category>
+		<pattern>ME GUSTA</pattern>
+		<template>
+			<srai>XVIEWLIKE</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>NO ME GUSTA</pattern>
+		<template>
+			<!--obtener lista de dislikes-->
+		</template>
+	</category>
+	<category>
+		<pattern>MI * FAVORITO</pattern>
+		<template>
+			<!--obtener de lista favorites, comprobar si existe-->
+		</template>
+	</category>
+	<category>
+		<pattern>MI APELLIDO</pattern>
+		<template>
+			Si no recuerdo mal te apellidas <get name="apellido"/>
+		</template>
+	</category>
+	<category>
+		<pattern>MI CIUDAD</pattern>
+		<template>
+			Si no recuerdo mal vives en <get name="ciudad"/>
+		</template>
+	</category>
+	<category>
+		<pattern>MI COLOR FAVORITO</pattern>
+		<template>
+			Si no recuerdo mal el <get name="colorfavorito"/>
+		</template>
+	</category>
+	<category>
+		<pattern>MI EDAD</pattern>
+		<template>
+			Si no recuerdo tienes <get name="edad"/>
+		</template>
+	</category>
+	<category>
+		<pattern>MI <set>FAMILY</set></pattern>
+		<template>
+			<!--leer de familiarname, si unknown no sabe-->
+		</template>
+	</category>
+	<category>
+		<pattern>MI MOTE</pattern>
+		<template>
+			Me pediste que te llamara <get name="mote"/>
+		</template>
+	</category>
+	<category>
+		<pattern>MI NOMBRE</pattern>
+		<template>
+			Te llamas <get name="nombre"/>
+		</template>
+	</category>
+<!--ESTABLECER VALORES SOBRE EL USUARIO-->
+	<category>
+		<pattern>ME GUSTA *</pattern>
+		<template>
+			<srai>XADDLIKE <star/></srai>
+			He añadido <star/> a la lista de cosas que te gustan.
+		</template>
+	</category>
+	<category>
+		<pattern>NO ME GUSTA *</pattern>
+		<template>
+			<srai>XADDDISLIKE <star/></srai>
+			He añadido <star/> a la lista de cosas que no te gustan.
+		</template>
+	</category>
+	<category>
+		<pattern>MI * FAVORITO ES *</pattern>
+		<template>
+			<!--añadir a lista favorites-->
+		</template>
+	</category>
+	<category>
+		<pattern>MI APELLIDO ES *</pattern>
+		<template>
+			<set name="apellido"><formal><star/></formal></set>, ok
+		</template>
+	</category>
+	<category>
+		<pattern>MI CIUDAD ES *</pattern>
+		<template>
+			<set name="ciudad"><formal><star/></formal></set>, ok
+		</template>
+	</category>
+	<category>
+		<pattern>MI COLOR FAVORITO ES EL *</pattern>
+		<template>
+			<set name="colorfavorito"><formal><star/></formal></set>, ok
+		</template>
+	</category>
+	<category>
+		<pattern>MI COLOR FAVORITO ES *</pattern>
+		<template>
+			No reconozco <star/> como un color.
+			<!--añadir nuevo color-->
+		</template>
+	</category>
+	<category>
+		<pattern>MI EDAD ES *</pattern>
+		<template>
+			<set name="edad"><formal><star/></formal></set>, ok
+		</template>
+	</category>
+	<category>
+		<pattern>MI <set>FAMILY</set> ES *</pattern>
+		<template>
+			<!--añadir a familiarname.txt-->
+		</template>
+	</category>
+	<category>
+		<pattern>MI MOTE ES *</pattern>
+		<template>
+			<set name="mote"><formal><star/></formal></set>, ok
+		</template>
+	</category>
+	<category>
+		<pattern>MI NOMBRE ES <set>NAMES</set></pattern>
+		<template>
+			<set name="nombre"><formal><star/></formal></set>, ok
+		</template>
+	</category>
+	<category>
+		<pattern>MI NOMBRE ES *</pattern>
+		<template>
+			No reconozco <start/> como nombre.
+			<!--añadir nuevo nombre-->
+		</template>
+	</category>
+	<category>
+		<pattern>XPRINTPROFILE</pattern>
+		<template>
+			<!-- falta: likes, dislikes, favorites, family, friends, 
+				possesion-->
+			<condition name="nombre">
+				<li value="unknown">nombre: desconocido.</li>
+				<li>nombre: <get name="nombre"/>.</li>
+			</condition>
+			<condition name="apellido">
+				<li value="unknown">apellido: desconocido.</li>
+				<li>apellido: <get name="apellido"/>.</li>
+			</condition>
+			<condition name="ciudad">
+				<li value="unknown">ciudad: desconocido.</li>
+				<li>ciudad: <get name="ciudad"/>.</li>
+			</condition>
+			<condition name="colorfavorito">
+				<li value="unknown">color favorito: desconocido.</li>
+				<li>color favorito: <get name="colorfavorito"/>.</li>
+			</condition>
+			<condition name="edad">
+				<li value="unknown">edad: desconocido.</li>
+				<li>edad: <get name="edad"/>.</li>
+			</condition>
+			<condition name="mote">
+				<li value="unknown">mote: desconocido.</li>
+				<li>mote: <get name="mote"/>.</li>
+			</condition>
+			<condition name="ubicacion">
+				<li value="unknown">ubicación: desconocido.</li>
+				<li>ubicación: <get name="ubicacion"/>.</li>
+			</condition>
+		</template>
+	</category>
+	<category>
+		<pattern>XRESTARTPROFILE</pattern>
+		<template>
+			<!-- falta: likes, dislikes, favorites, family, friends, 
+				possesion-->
+			<set name="nombre">unknown</set>
+			<set name="apellido">unknown</set>
+			<set name="ciudad">unknown</set>
+			<set name="colorfavorito">unknown</set>
+			<set name="edad">unknown</set>
+			<set name="mote">unknown</set>
+			<set name="ubicacion">unknown</set>
+		</template>
+	</category>
+</aiml>

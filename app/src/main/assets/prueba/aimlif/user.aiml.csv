@@ -1,0 +1,24 @@
+0,ME GUSTA,*,*,<srai>XVIEWLIKE</srai>,user.aiml
+0,NO ME GUSTA,*,*,<!--obtener lista de dislikes-->,user.aiml
+0,MI * FAVORITO,*,*,<!--obtener de lista favorites#Comma comprobar si existe-->,user.aiml
+0,MI APELLIDO,*,*,Si no recuerdo mal te apellidas <get name="apellido"/>,user.aiml
+0,MI CIUDAD,*,*,Si no recuerdo mal vives en <get name="ciudad"/>,user.aiml
+0,MI COLOR FAVORITO,*,*,Si no recuerdo mal el <get name="colorfavorito"/>,user.aiml
+0,MI EDAD,*,*,Si no recuerdo tienes <get name="edad"/>,user.aiml
+0,MI <SET>FAMILY</SET>,*,*,<!--leer de familiarname#Comma si unknown no sabe-->,user.aiml
+0,MI MOTE,*,*,Me pediste que te llamara <get name="mote"/>,user.aiml
+0,MI NOMBRE,*,*,Te llamas <get name="nombre"/>,user.aiml
+0,ME GUSTA *,*,*,<srai>XADDLIKE <star/></srai>#Newline			He añadido <star/> a la lista de cosas que te gustan.,user.aiml
+0,NO ME GUSTA *,*,*,<srai>XADDDISLIKE <star/></srai>#Newline			He añadido <star/> a la lista de cosas que no te gustan.,user.aiml
+0,MI * FAVORITO ES *,*,*,<!--añadir a lista favorites-->,user.aiml
+0,MI APELLIDO ES *,*,*,<set name="apellido"><formal><star/></formal></set>#Comma ok,user.aiml
+0,MI CIUDAD ES *,*,*,<set name="ciudad"><formal><star/></formal></set>#Comma ok,user.aiml
+0,MI COLOR FAVORITO ES EL *,*,*,<set name="colorfavorito"><formal><star/></formal></set>#Comma ok,user.aiml
+0,MI COLOR FAVORITO ES *,*,*,No reconozco <star/> como un color.#Newline			<!--añadir nuevo color-->,user.aiml
+0,MI EDAD ES *,*,*,<set name="edad"><formal><star/></formal></set>#Comma ok,user.aiml
+0,MI <SET>FAMILY</SET> ES *,*,*,<!--añadir a familiarname.txt-->,user.aiml
+0,MI MOTE ES *,*,*,<set name="mote"><formal><star/></formal></set>#Comma ok,user.aiml
+0,MI NOMBRE ES <SET>NAMES</SET>,*,*,<set name="nombre"><formal><star/></formal></set>#Comma ok,user.aiml
+0,MI NOMBRE ES *,*,*,No reconozco <start/> como nombre.#Newline			<!--añadir nuevo nombre-->,user.aiml
+0,XPRINTPROFILE,*,*,<!-- falta: likes#Comma dislikes#Comma favorites#Comma family#Comma friends#Comma #Newline				possesion-->#Newline			<condition name="nombre">#Newline				<li value="unknown">nombre: desconocido.</li>#Newline				<li>nombre: <get name="nombre"/>.</li>#Newline			</condition>#Newline			<condition name="apellido">#Newline				<li value="unknown">apellido: desconocido.</li>#Newline				<li>apellido: <get name="apellido"/>.</li>#Newline			</condition>#Newline			<condition name="ciudad">#Newline				<li value="unknown">ciudad: desconocido.</li>#Newline				<li>ciudad: <get name="ciudad"/>.</li>#Newline			</condition>#Newline			<condition name="colorfavorito">#Newline				<li value="unknown">color favorito: desconocido.</li>#Newline				<li>color favorito: <get name="colorfavorito"/>.</li>#Newline			</condition>#Newline			<condition name="edad">#Newline				<li value="unknown">edad: desconocido.</li>#Newline				<li>edad: <get name="edad"/>.</li>#Newline			</condition>#Newline			<condition name="mote">#Newline				<li value="unknown">mote: desconocido.</li>#Newline				<li>mote: <get name="mote"/>.</li>#Newline			</condition>#Newline			<condition name="ubicacion">#Newline				<li value="unknown">ubicación: desconocido.</li>#Newline				<li>ubicación: <get name="ubicacion"/>.</li>#Newline			</condition>,user.aiml
+0,XRESTARTPROFILE,*,*,<!-- falta: likes#Comma dislikes#Comma favorites#Comma family#Comma friends#Comma #Newline				possesion-->#Newline			<set name="nombre">unknown</set>#Newline			<set name="apellido">unknown</set>#Newline			<set name="ciudad">unknown</set>#Newline			<set name="colorfavorito">unknown</set>#Newline			<set name="edad">unknown</set>#Newline			<set name="mote">unknown</set>#Newline			<set name="ubicacion">unknown</set>,user.aiml

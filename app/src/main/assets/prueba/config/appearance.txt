@@ -1,0 +1,5 @@
+colorojos:unknown
+colorpelo:unknown
+estilopelo:unknown
+altura:unknown
+peso:unknown

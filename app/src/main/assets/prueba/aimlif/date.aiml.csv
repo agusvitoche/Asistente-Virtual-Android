@@ -1,0 +1,6 @@
+0,AÑO,*,*,El año <date format="%Y" jformat="YYYY"/>,date.aiml
+0,DÍA,*,*,Hoy es <date format="%A %d %B" jformat="EEEEEEEEEE dd MMMMMMMMM"/>,date.aiml
+0,FECHA,*,*,Hoy es <date format="%A %d %B %Y" jformat="EEEEEEEEEE dd MMMMMMMMM#Comma YYYY"/>,date.aiml
+0,FECHA Y HORA,*,*,Son las <date format="%I:%M %p" jformat="h:mm"/> del <date format="%A %d %B" jformat="EEEEEEEEEE dd MMMMMMMMM"/>,date.aiml
+0,HORA,*,*,Son las <date format="%I:%M %p" jformat="h:mm a"/>,date.aiml
+0,MES,*,*,Estamos en <date format="%B" jformat="MMMMMMMMM"/>,date.aiml

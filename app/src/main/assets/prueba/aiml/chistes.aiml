@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+	<category>
+		<pattern>CUENTAME UN CHISTE</pattern>
+		<template>
+			<think><set name="topic">chiste</set></think>
+			<random> 
+				<li>
+					Mira mamá, ya me están creciendo los pechos. Si, ya he visto, tienes que empezar adelgazar un poco Manuel. ¿Te cuento otro?
+				</li>
+				<li>
+					Había un chiste tan, pero tan malo, que le pegaba a los chistes buenos. ¿Te cuento otro?
+				</li>
+				<li>
+					Jesucristo está en la cruz gritando: Malditos hijos de .., Romanos, Cabrones.. en esto que se acerca Pedro corriendo y le dice: Maestro, maestro que viene la prensa. Señor, perdónales porqué no saben lo que hacen. ¿Te cuento otro?
+				</li>
+			</random>
+		</template>
+	</category>
+	<topic name = "chiste">
+		<category>
+			<pattern> * </pattern>
+			<template>No reconocido topic=chiste.</template>
+		</category>
+		<category>
+			<pattern>SI</pattern>
+			<template><srai>CUENTAME UN CHISTE</srai></template>
+		</category>
+		<category>
+			<pattern>NO</pattern>
+			<template>De acuerdo.</template>
+		</category>
+	</topic>
+</aiml>

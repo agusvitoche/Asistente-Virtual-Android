@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+	<category>
+        <pattern>ABRIR WHATSAPP</pattern>
+        <template>
+            intentWhatsApp
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALARMA A LAS * Y *</pattern>
+        <template>
+            intentAlarma:<star index="1"/>:<star index="2"/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TEMPORIZADOR DE *</pattern>
+        <template>
+            intentTemporizador:<star/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VER ALARMAS</pattern>
+        <template>
+            intentVerAlarmas
+        </template>
+    </category>
+	
+	<category>
+        <pattern>SACAR FOTO</pattern>
+        <template>
+            intentFoto
+        </template>
+    </category>
+	
+	<category>
+        <pattern>GRABAR VIDEO</pattern>
+        <template>
+            intentVideo
+        </template>
+    </category>
+	
+	<category>
+        <pattern>MARCAR TELEFONO *</pattern>
+        <template>
+            intentDial:<star/>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>LLAMAR A TELEFONO *</pattern>
+        <template>
+            intentLlamada:<star/>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>BUSCA EN INTERNET *</pattern>
+        <template>
+            intentWebSearch:<star/>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>BUSCA EN YOUTUBE *</pattern>
+        <template>
+            intentYoutubeSearch:<star/>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>DEFINE *</pattern>
+        <template>
+            intentWebDefine:<star/>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABRIR URL *</pattern>
+        <template>
+            intentWebPage:<star/>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>CONFIGURACION</pattern>
+        <template>
+            intentSettings
+        </template>
+    </category>
+	
+	<category>
+        <pattern>CONFIGURACION WIFI</pattern>
+        <template>
+            intentWifiSettings
+        </template>
+    </category>
+	
+	<category>
+        <pattern>CONFIGURACION MODO AVION</pattern>
+        <template>
+            intentAirplaneModeSettings
+        </template>
+    </category>
+	
+	<category>
+        <pattern>CONFIGURACION BLUETOOTH</pattern>
+        <template>
+            intentBluetoothSettings
+        </template>
+    </category>
+	
+	<category>
+        <pattern>CONFIGURACION FECHA</pattern>
+        <template>
+            intentDateSettings
+        </template>
+    </category>
+	
+	<category>
+        <pattern>CONFIGURACION TECLADO</pattern>
+        <template>
+            intentInputMethodSettings
+        </template>
+    </category>
+	
+	<category>
+        <pattern>CONFIGURACION PANTALLA</pattern>
+        <template>
+            intentDisplaySettings
+        </template>
+    </category>
+	
+	<category>
+        <pattern>CONFIGURACION SEGURIDAD</pattern>
+        <template>
+            intentSecuritySettings
+        </template>
+    </category>
+
+</aiml>

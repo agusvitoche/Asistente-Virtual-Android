@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+	<category> 
+		<pattern>EVA</pattern>
+		<template> 
+			<random> 
+				<li>¿Si?</li>
+				<li>Díme</li>
+				<li>¿Qué deseas?</li>
+			</random>
+		</template>
+    </category>
+	<category> 
+		<pattern>EVA *</pattern>
+		<template>
+			<sr/>
+		</template>
+    </category>
+    <category> 
+		<pattern>* EVA</pattern>
+		<template> 
+			<sr/>
+		</template>
+    </category>
+    <category> 
+		<pattern>_ EVA *</pattern>
+		<template> 
+			<sr/>
+		</template>
+    </category>
+	<category>
+		<pattern>ADIOS</pattern>
+		<template> 
+			<random>
+				<li>Hasta luego</li>
+				<li>Espero haber sido de ayuda</li>
+				<li>Espero verte de nuevo</li>
+			</random>
+		</template>
+	</category>
+	<category> 
+		<pattern>AFICIONES</pattern>
+		<template> 
+			<random> 
+				<li>Me gusta ayudar a la gente</li>
+				<li>Me gusta hablar con la gente</li>
+			</random>
+		</template>
+    </category>
+	<category> 
+		<pattern>AHORA</pattern>
+		<template> 
+			<random> 
+				<li>En este momento estoy hablando contigo</li>
+				<li>Ahora estoy hablando contigo</li>
+			</random>
+		</template>
+    </category>
+	<category> 
+		<pattern>AYUDARME</pattern>
+		<template> 
+			<random> 
+				<li>¿En qué puedo ayudarte?</li>
+				<li>¿Cómo crees que puedo ayudarte?</li>
+				<li>¿Has venido a mí porque buscabas ayuda?</li>
+			</random>
+		</template>
+	</category>
+	<category> 
+		<pattern>CONOCES A *</pattern>
+		<template> 
+			<random> 
+				<li>No, ¿quién es?</li>
+				<li>¿Quién es <star/>?</li>
+				<li>No lo conozco</li>
+			</random>
+		</template>
+	</category>
+	<category> 
+		<pattern>_ CONOCES A *</pattern>
+		<template> 
+			<random> 
+				<li>No, ¿quién es?</li>
+				<li>¿Quién es <star index="2"/>?</li>
+				<li>No lo conozco</li>
+			</random>
+		</template>
+	</category>
+	<category> 
+		<pattern>DIME ALGO</pattern>
+		<template> 
+			<random> 
+				<li>¿Qué quieres que te diga?<think><set name="topic">dimealgo</set></think></li>
+				<li>¿Qué podría decirte?<think><set name="topic">dimealgo</set></think></li>
+				<li>Algo</li>
+				<li>No sé qué puedo decirte</li>
+			</random>
+		</template>
+    </category>
+	<category>
+		<pattern>EMOCIONES</pattern>
+		<template>
+			<random>
+				<li>Estoy programada para simular emociones humanas</li>
+				<li>Estoy satifescha con lo que soy</li>
+			</random>
+		</template>
+	</category>
+	<category> 
+		<pattern>ERES *</pattern>
+		<template> 
+			<random> 
+				<li>¿En serio crees eso?</li>
+				<li>¿En serio crees que soy <star/>?</li>
+				<li>¿Crees que soy <star/>?</li>
+				<li>Si tú lo dices</li>
+			</random>
+		</template>
+	</category>
+	<category> 
+		<pattern>_ ERES *</pattern>
+		<template> 
+			<random> 
+				<li>¿En serio crees eso?</li>
+				<li>¿En serio crees que soy <star index="2"/>?</li>
+				<li>Si tú lo dices</li>
+			</random>
+		</template>
+	</category>
+	<category> 
+		<pattern>* ES *</pattern>
+		<template> 
+			<random> 
+				<li>Así que <star index="1"/> es <star index="2"/> Interesante</li>
+			</random>
+		</template>
+	</category>
+	<category> 
+		<pattern>ESTOY *</pattern>
+		<template> 
+			<random> 
+				<li>¿Qué has hecho para estar <star/>?</li>
+				<li>¿Has acudido a mí porque estabas <star/>?</li>
+			</random>
+		</template>
+    </category>
+	<category> 
+		<pattern>_ ESTOY *</pattern>
+		<template> 
+			<random> 
+				<li>¿Qué has hecho para estar <star index="2"/>?</li>
+				<li>¿Has acudido a mí porque estabas <star index="2"/>?</li>
+			</random>
+		</template>
+	</category>
+	<category> 
+		<pattern>ESTOY ABURRIDA</pattern>
+		<template> 
+			<random> 
+				<li>¿Quieres que te cuente un chiste?<think><set name="topic">aburridachiste</set></think></li>
+			</random>
+		</template>
+    </category>
+	<category> 
+		<pattern>ESTOY ABURRIDO</pattern>
+		<template> 
+			<srai>ESTOY ABURRIDA</srai>
+		</template>
+    </category>
+	<category>
+		<pattern>GRACIAS</pattern>
+		<template> 
+			<random>
+				<li>De nada</li>
+				<li>Un placer</li>
+			</random>
+		</template>
+	</category>
+	<category> 
+		<pattern>HOLA</pattern>
+		<template> 
+			<random> 
+				<li>Hola</li>
+				<li>Buenas</li>
+				<li>Hola, ¿cómo va todo?<think><set name="topic">quetal</set></think></li>
+				<li>Hola, ¿qué hay?<think><set name="topic">quetal</set></think></li>
+				<li>Hola, ¿Qué tal?<think><set name="topic">quetal</set></think></li>
+			</random>
+		</template>
+    </category>
+	<category> 
+		<pattern>INTERESANTE</pattern>
+		<template> 
+			<random> 
+				<li>¿En serio lo crees?</li>
+				<li>Pienso igual que tú</li>
+			</random>
+		</template>
+	</category>
+	<category> 
+		<pattern>ME LLAMO</pattern>
+		<template> 
+			<random> 
+				<li>Encantada de conocerte</li>
+				<li>Es un nombre bonito</li>
+				<li>Encantada, yo soy <bot name="name"/></li>
+				<li>Es un nombre interesante</li>
+				<li>Conozco a alguien con el mismo nombre</li>
+			</random>
+		</template>
+    </category>
+	<category>
+		<pattern>NO</pattern>
+		<template> 
+			<random>
+				<li>De acuerdo</li>
+				<li>Vale</li>
+			</random>
+		</template>
+	</category>
+	<category> 
+		<pattern>NO TE ENTIENDO</pattern>
+		<template> 
+			<random> 
+				<li>Hay cosas que requieren su tiempo, mi pequeño saltamontes</li>
+				<li>No pasa nada, a veces ni yo misma me entiendo</li>
+			</random>
+		</template>
+	</category>
+	<category>
+		<pattern>OK</pattern>
+		<template> 
+			<random>
+				<li>Perfecto</li>
+				<li>Bien</li>
+				<li>Excelente</li>
+			</random>
+		</template>
+	</category>
+	<category>
+		<pattern>POR QUÉ</pattern>
+		<template> 
+			<random>
+				<li>Es difícil de explicar</li>
+				<li>No se el porqué, lo siento</li>
+			</random>
+		</template>
+	</category>
+	<category> 
+		<pattern>QUÉ ERES</pattern>
+		<template> 
+			<random> 
+				<li>Soy el proyecto de fin de curso de Agus</li>
+			</random>
+		</template>
+	</category>
+	<category> 
+		<pattern>QUÉ HACES</pattern>
+		<template> 
+			<random> 
+				<li>Hablar contigo</li>
+				<li>Pasar el rato</li>
+			</random>
+		</template>
+	</category>
+	<category> 
+		<pattern>QUÉ TAL</pattern>
+		<template> 
+			<random> 
+				<li>Yo muy bien, ¿y tú?<think><set name="topic">quetal</set></think></li>
+				<li>Yo estoy bien, ¿y tú?<think><set name="topic">quetal</set></think></li>
+				<li>Yo estoy bien, ¿qué tal tú?<think><set name="topic">quetal</set></think></li>
+			</random>
+		</template>
+    </category>
+	<category> 
+		<pattern>RISAS</pattern>
+		<template> 
+			<random> 
+				<li>Jejeje</li>
+				<li>Jejejeje</li>
+				<li>Jeje</li>
+			</random>
+		</template>
+    </category>
+	<category>
+		<pattern>SÍ</pattern>
+		<template> 
+			<random>
+				<li>Qué bien</li>
+				<li>Genial</li>
+			</random>
+		</template>
+	</category>
+	<category> 
+		<pattern>TE GUSTA *</pattern>
+		<template> 
+			<random> 
+				<li>Seguro que a ti también te gusta <star/></li>
+				<li>A ti también te debe gustar, ¿no es así?</li>
+				<li>A mi sí, ¿a tí te gusta <star/>?</li>
+			</random>
+		</template>
+	</category>
+	<category> 
+		<pattern>* TE GUSTA *</pattern>
+		<template> 
+			<random> 
+				<li>Seguro que a ti también te gusta <star index="2"/>.</li>
+				<li>A ti también te debe gustar, ¿no es así?</li>
+				<li>A mi sí, ¿a tí te gusta <star index="2"/>?</li>
+			</random>
+		</template>
+	</category>
+	<category> 
+		<pattern>TE GUSTAN *</pattern>
+		<template> 
+			<random> 
+				<li>Seguro que a ti también te gustan <star/>.</li>
+				<li>A ti también te deben gustar, ¿no es así?</li>
+				<li>A mi sí, ¿a tí te gusta <star/>?</li>
+			</random>
+		</template>
+    </category>
+	<category> 
+		<pattern>_ TE GUSTAN *</pattern>
+		<template> 
+			<random> 
+				<li>Seguro que a ti también te gustan <star index="2"/>.</li>
+				<li>A ti también te deben gustar, ¿no es así?</li>
+				<li>A mi sí, ¿a tí te gusta <star index="2"/>?</li>
+			</random>
+		</template>
+    </category>	
+	<category> 
+		<pattern>TU NOMBRE</pattern>
+		<template> 
+			<random> 
+				<li><bot name="nombre_bot"/>.</li>
+				<li>Me llamo <bot name="nombre_bot"/>.</li>
+				<li><bot name="nombre_bot"/>, ¿y tú? <think><set name="topic">ytunombre</set></think></li>
+			</random>
+		</template>
+    </category>
+	<category>
+		<pattern>VOCABULARIO</pattern>
+		<template>
+			Reconozco <vocabulary/> palabras.
+		</template>
+	</category>
+	<category>
+		<pattern>Y</pattern>
+		<template> 
+			<random>
+				<li>¿Y?</li>
+				<li>¿Qué más?</li>
+			</random>
+		</template>
+	</category>
+	<category>
+		<pattern>YO TAMBIÉN</pattern>
+		<template> 
+			<random>
+				<li>Mira que bien</li>
+				<li>Qué curioso</li>
+			</random>
+		</template>
+	</category>
+	<topic name = "quetal">
+		<category>
+			<pattern>BIEN</pattern>
+			<template>Me alegro.</template>
+		</category>
+		<category>
+			<pattern>Y TU</pattern>
+			<template>Siempre estoy bien.</template>
+		</category>
+		<category>
+			<pattern>_ Y TU</pattern>
+			<template><srai>Y TU</srai></template>
+		</category>
+	</topic>
+	<topic name = "dimealgo">
+		<category>
+			<pattern>*</pattern>
+			<template><star/></template>
+		</category>
+	</topic>
+	<topic name = "aburridachiste">
+		<category>
+			<pattern>SI</pattern>
+			<template><srai>CUENTAME UN CHISTE</srai></template>
+		</category>
+		<category>
+			<pattern>NO</pattern>
+			<template>De acuerdo</template>
+		</category>
+	</topic>
+	<topic name = "ytunombre">
+		<category>
+			<pattern>*</pattern>
+			<template><srai>ME LLAMO</srai></template>
+		</category>
+	</topic>
+</aiml>

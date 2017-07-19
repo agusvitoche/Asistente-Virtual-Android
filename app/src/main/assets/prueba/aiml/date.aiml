@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+	<category>
+		<pattern>AÑO</pattern>
+		<template>
+			El año <date format="%Y" jformat="YYYY"/>
+		</template>
+	</category>
+	<category>
+		<pattern>DÍA</pattern>
+		<template>
+			Hoy es <date format="%A %d %B" jformat="EEEEEEEEEE dd MMMMMMMMM"/>
+		</template>
+	</category>
+	<category>
+		<pattern>FECHA</pattern>
+		<template>
+			Hoy es <date format="%A %d %B %Y" jformat="EEEEEEEEEE dd MMMMMMMMM, YYYY"/>
+		</template>
+	</category>
+	<category>
+		<pattern>FECHA Y HORA</pattern>
+		<template>
+			Son las <date format="%I:%M %p" jformat="h:mm"/> del <date format="%A %d %B" jformat="EEEEEEEEEE dd MMMMMMMMM"/>
+		</template>
+	</category>
+	<category>
+		<pattern>HORA</pattern>
+		<template>
+			Son las <date format="%I:%M %p" jformat="h:mm a"/>
+		</template>
+	</category>
+	<category>
+		<pattern>MES</pattern>
+		<template>
+			Estamos en <date format="%B" jformat="MMMMMMMMM"/>
+		</template>
+	</category>
+</aiml>

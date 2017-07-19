@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Proyecto Fin de Curso</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_send">Enviar</string>
+    <string name="OCRbutton">OCR</string>
+    <string name="OCRtextView">El texto aparecerá aquí</string>
+    <string name="item_cmd_submenu">Cómo activarlo</string>
+    <string name="item_cmd_title">Título comando</string>
+</resources>

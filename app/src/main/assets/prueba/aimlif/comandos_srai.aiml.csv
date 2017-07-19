@@ -1,0 +1,123 @@
+0,ENSEÑAME LAS ALARMAS,*,*,<srai>VER ALARMAS</srai>,comandos_srai.aiml
+0,ENSEÑAME TODAS LAS ALARMAS,*,*,<srai>VER ALARMAS</srai>,comandos_srai.aiml
+0,VER TODAS LAS ALARMAS,*,*,<srai>VER ALARMAS</srai>,comandos_srai.aiml
+0,PON UNA ALARMA A LAS * Y *,*,*,<srai>ALARMA A LAS <star index="1"/> Y <star index="2"/></srai>,comandos_srai.aiml
+0,PON UNA ALARMA A LAS * Y CUARTO,*,*,<srai>ALARMA A LAS <star index="1"/> Y 15</srai>,comandos_srai.aiml
+0,PON UNA ALARMA A LAS * Y MEDIA,*,*,<srai>ALARMA A LAS <star index="1"/> Y 30</srai>,comandos_srai.aiml
+0,PUEDES PONER UNA ALARMA A LAS * Y *,*,*,<srai>ALARMA A LAS <star index="1"/> Y <star index="2"/></srai>,comandos_srai.aiml
+0,PUEDES PONER UNA ALARMA A LAS * Y CUARTO,*,*,<srai>ALARMA A LAS <star index="1"/> Y 15</srai>,comandos_srai.aiml
+0,PUEDES PONER UNA ALARMA A LAS * Y MEDIA,*,*,<srai>ALARMA A LAS <star index="1"/> Y 30</srai>,comandos_srai.aiml
+0,NECESITO UNA ALARMA A LAS * Y *,*,*,<srai>ALARMA A LAS <star index="1"/> Y <star index="2"/></srai>,comandos_srai.aiml
+0,NECESITO UNA ALARMA A LAS * Y CUARTO,*,*,<srai>ALARMA A LAS <star index="1"/> Y 15</srai>,comandos_srai.aiml
+0,NECESITO UNA ALARMA A LAS * Y MEDIA,*,*,<srai>ALARMA A LAS <star index="1"/> Y 30</srai>,comandos_srai.aiml
+0,TEMPORIZADOR DE * SEGUNDOS,*,*,<srai>TEMPORIZADOR DE <star index="1"/></srai>,comandos_srai.aiml
+0,PON UN TEMPORIZADOR DE *,*,*,<srai>TEMPORIZADOR DE <star index="1"/></srai>,comandos_srai.aiml
+0,PON UN TEMPORIZADOR DE * SEGUNDOS,*,*,<srai>TEMPORIZADOR DE <star index="1"/></srai>,comandos_srai.aiml
+0,AVISAME EN * SEGUNDOS,*,*,<srai>TEMPORIZADOR DE <star index="1"/></srai>,comandos_srai.aiml
+0,AVÍSAME EN * SEGUNDOS,*,*,<srai>TEMPORIZADOR DE <star index="1"/></srai>,comandos_srai.aiml
+0,ABRE LA CÁMARA,*,*,<srai>SACAR FOTO</srai>,comandos_srai.aiml
+0,ABRIR CÁMARA,*,*,<srai>SACAR FOTO</srai>,comandos_srai.aiml
+0,ABRIR LA CÁMARA,*,*,<srai>SACAR FOTO</srai>,comandos_srai.aiml
+0,FOTO,*,*,<srai>SACAR FOTO</srai>,comandos_srai.aiml
+0,TOMAR FOTO,*,*,<srai>SACAR FOTO</srai>,comandos_srai.aiml
+0,VIDEO,*,*,<srai>GRABAR VIDEO</srai>,comandos_srai.aiml
+0,VÍDEO,*,*,<srai>GRABAR VIDEO</srai>,comandos_srai.aiml
+0,GRABAR VÍDEO,*,*,<srai>GRABAR VIDEO</srai>,comandos_srai.aiml
+0,MARCAR TELÉFONO *,*,*,<srai>MARCAR TELEFONO <star index="1"/></srai>,comandos_srai.aiml
+0,MARCAR NUMERO DE TELEFONO *,*,*,<srai>MARCAR TELEFONO <star index="1"/></srai>,comandos_srai.aiml
+0,MARCAR NÚMERO DE TELÉFONO *,*,*,<srai>MARCAR TELEFONO <star index="1"/></srai>,comandos_srai.aiml
+0,MARCAR NUMERO DE TELÉFONO *,*,*,<srai>MARCAR TELEFONO <star index="1"/></srai>,comandos_srai.aiml
+0,MARCAR NÚMERO DE TELEFONO *,*,*,<srai>MARCAR TELEFONO <star index="1"/></srai>,comandos_srai.aiml
+0,MARCA EL TELEFONO *,*,*,<srai>MARCAR TELEFONO <star index="1"/></srai>,comandos_srai.aiml
+0,MARCA EL NÚMERO DE TELEFONO *,*,*,<srai>MARCAR TELEFONO <star index="1"/></srai>,comandos_srai.aiml
+0,MARCA EL NUMERO DE TELEFONO *,*,*,<srai>MARCAR TELEFONO <star index="1"/></srai>,comandos_srai.aiml
+0,DIAL *,*,*,<srai>MARCAR TELEFONO <star index="1"/></srai>,comandos_srai.aiml
+0,LLAMAR TELÉFONO *,*,*,<srai>LLAMAR TELEFONO <star index="1"/></srai>,comandos_srai.aiml
+0,LLAMAR NÚMERO DE TELÉFONO *,*,*,<srai>LLAMAR TELEFONO <star index="1"/></srai>,comandos_srai.aiml
+0,LLAMAR NUMERO DE TELEFONO *,*,*,<srai>LLAMAR TELEFONO <star index="1"/></srai>,comandos_srai.aiml
+0,LLAMAR NÚMERO DE TELEFONO *,*,*,<srai>LLAMAR TELEFONO <star index="1"/></srai>,comandos_srai.aiml
+0,LLAMAR NUMERO DE TELÉFONO *,*,*,<srai>LLAMAR TELEFONO <star index="1"/></srai>,comandos_srai.aiml
+0,LLAMAR AL TELÉFONO *,*,*,<srai>LLAMAR TELEFONO <star index="1"/></srai>,comandos_srai.aiml
+0,LLAMAR AL TELEFONO *,*,*,<srai>LLAMAR TELEFONO <star index="1"/></srai>,comandos_srai.aiml
+0,LLAMA AL TELÉFONO *,*,*,<srai>LLAMAR TELEFONO <star index="1"/></srai>,comandos_srai.aiml
+0,LLAMA AL TELEFONO *,*,*,<srai>LLAMAR TELEFONO <star index="1"/></srai>,comandos_srai.aiml
+0,LLAMA AL NÚMERO DE TELÉFONO *,*,*,<srai>LLAMAR TELEFONO <star index="1"/></srai>,comandos_srai.aiml
+0,LLAMA AL NUMERO DE TELEFONO *,*,*,<srai>LLAMAR TELEFONO <star index="1"/></srai>,comandos_srai.aiml
+0,LLAMA AL NÚMERO DE TELEFONO *,*,*,<srai>LLAMAR TELEFONO <star index="1"/></srai>,comandos_srai.aiml
+0,LLAMA AL NUMERO DE TELÉFONO *,*,*,<srai>LLAMAR TELEFONO <star index="1"/></srai>,comandos_srai.aiml
+0,BUSCAR EN INTERNET *,*,*,<srai>BUSCA EN INTERNET <star index="1"/></srai>,comandos_srai.aiml
+0,BUSCAR *,*,*,<srai>BUSCA EN INTERNET <star index="1"/></srai>,comandos_srai.aiml
+0,BUSCA EN GOOGLE *,*,*,<srai>BUSCA EN INTERNET <star index="1"/></srai>,comandos_srai.aiml
+0,BUSCAR EN GOOGLE *,*,*,<srai>BUSCA EN INTERNET <star index="1"/></srai>,comandos_srai.aiml
+0,DEFINIR *,*,*,<srai>DEFINE <star index="1"/></srai>,comandos_srai.aiml
+0,BUSCA LA DEFINICIÓN DE *,*,*,<srai>DEFINE <star index="1"/></srai>,comandos_srai.aiml
+0,BUSCA LA DEFINICION DE *,*,*,<srai>DEFINE <star index="1"/></srai>,comandos_srai.aiml
+0,QUE SIGNIFICA *,*,*,<srai>DEFINE <star index="1"/></srai>,comandos_srai.aiml
+0,QUÉ SIGNIFICA *,*,*,<srai>DEFINE <star index="1"/></srai>,comandos_srai.aiml
+0,ABRE LA URL *,*,*,<srai>ABRIR URL <star index="1"/></srai>,comandos_srai.aiml
+0,ABRE ESTA DIRECCIÓN WEB *,*,*,<srai>ABRIR URL <star index="1"/></srai>,comandos_srai.aiml
+0,CONFIGURACIÓN,*,*,<srai>CONFIGURACION</srai>,comandos_srai.aiml
+0,CONFIGURACIÓN WIFI,*,*,<srai>CONFIGURACION WIFI</srai>,comandos_srai.aiml
+0,CONFIGURACIÓN MODO AVIÓN,*,*,<srai>CONFIGURACION MODO AVION</srai>,comandos_srai.aiml
+0,CONFIGURACIÓN MODO AVION,*,*,<srai>CONFIGURACION MODO AVION</srai>,comandos_srai.aiml
+0,CONFIGURACION MODO AVIÓN,*,*,<srai>CONFIGURACION MODO AVION</srai>,comandos_srai.aiml
+0,CONFIGURACIÓN BLUETOOTH,*,*,<srai>CONFIGURACION BLUETOOTH</srai>,comandos_srai.aiml
+0,CONFIGURACIÓN FECHA,*,*,<srai>CONFIGURACION FECHA</srai>,comandos_srai.aiml
+0,CONFIGURACIÓN TECLADO,*,*,<srai>CONFIGURACION TECLADO</srai>,comandos_srai.aiml
+0,CONFIGURACIÓN PANTALLA,*,*,<srai>CONFIGURACION PANTALLA</srai>,comandos_srai.aiml
+0,CONFIGURACIÓN SEGURIDAD,*,*,<srai>CONFIGURACION SEGURIDAD</srai>,comandos_srai.aiml
+0,ABRE CONFIGURACIÓN,*,*,<srai>CONFIGURACION</srai>,comandos_srai.aiml
+0,ABRE CONFIGURACION,*,*,<srai>CONFIGURACION</srai>,comandos_srai.aiml
+0,ABRE CONFIGURACIÓN WIFI,*,*,<srai>CONFIGURACION WIFI</srai>,comandos_srai.aiml
+0,ABRE CONFIGURACION WIFI,*,*,<srai>CONFIGURACION WIFI</srai>,comandos_srai.aiml
+0,ABRE CONFIGURACIÓN MODO AVIÓN,*,*,<srai>CONFIGURACION MODO AVION</srai>,comandos_srai.aiml
+0,ABRE CONFIGURACION MODO AVION,*,*,<srai>CONFIGURACION MODO AVION</srai>,comandos_srai.aiml
+0,ABRE CONFIGURACIÓN MODO AVION,*,*,<srai>CONFIGURACION MODO AVION</srai>,comandos_srai.aiml
+0,ABRE CONFIGURACION MODO AVIÓN,*,*,<srai>CONFIGURACION MODO AVION</srai>,comandos_srai.aiml
+0,ABRE CONFIGURACIÓN BLUETOOTH,*,*,<srai>CONFIGURACION BLUETOOTH</srai>,comandos_srai.aiml
+0,ABRE CONFIGURACION BLUETOOTH,*,*,<srai>CONFIGURACION BLUETOOTH</srai>,comandos_srai.aiml
+0,ABRE CONFIGURACIÓN FECHA,*,*,<srai>CONFIGURACION FECHA</srai>,comandos_srai.aiml
+0,ABRE CONFIGURACION FECHA,*,*,<srai>CONFIGURACION FECHA</srai>,comandos_srai.aiml
+0,ABRE CONFIGURACIÓN TECLADO,*,*,<srai>CONFIGURACION TECLADO</srai>,comandos_srai.aiml
+0,ABRE CONFIGURACIÓN PANTALLA,*,*,<srai>CONFIGURACION PANTALLA</srai>,comandos_srai.aiml
+0,ABRE CONFIGURACIÓN SEGURIDAD,*,*,<srai>CONFIGURACION SEGURIDAD</srai>,comandos_srai.aiml
+0,ABRE LA CONFIGURACIÓN,*,*,<srai>CONFIGURACION</srai>,comandos_srai.aiml
+0,ABRE LA CONFIGURACION,*,*,<srai>CONFIGURACION</srai>,comandos_srai.aiml
+0,ABRE LA CONFIGURACIÓN DEL WIFI,*,*,<srai>CONFIGURACION WIFI</srai>,comandos_srai.aiml
+0,ABRE LA CONFIGURACION DEL WIFI,*,*,<srai>CONFIGURACION WIFI</srai>,comandos_srai.aiml
+0,ABRE LA CONFIGURACIÓN DEL MODO AVIÓN,*,*,<srai>CONFIGURACION MODO AVION</srai>,comandos_srai.aiml
+0,ABRE LA CONFIGURACION DEL MODO AVION,*,*,<srai>CONFIGURACION MODO AVION</srai>,comandos_srai.aiml
+0,ABRE LA CONFIGURACIÓN DEL MODO AVION,*,*,<srai>CONFIGURACION MODO AVION</srai>,comandos_srai.aiml
+0,ABRE LA CONFIGURACION DEL MODO AVIÓN,*,*,<srai>CONFIGURACION MODO AVION</srai>,comandos_srai.aiml
+0,ABRE LA CONFIGURACIÓN DEL BLUETOOTH,*,*,<srai>CONFIGURACION BLUETOOTH</srai>,comandos_srai.aiml
+0,ABRE LA CONFIGURACION DEL BLUETOOTH,*,*,<srai>CONFIGURACION BLUETOOTH</srai>,comandos_srai.aiml
+0,ABRE LA CONFIGURACIÓN DE FECHA,*,*,<srai>CONFIGURACION FECHA</srai>,comandos_srai.aiml
+0,ABRE LA CONFIGURACION DE FECHA,*,*,<srai>CONFIGURACION FECHA</srai>,comandos_srai.aiml
+0,ABRE LA CONFIGURACIÓN DE TECLADO,*,*,<srai>CONFIGURACION TECLADO</srai>,comandos_srai.aiml
+0,ABRE LA CONFIGURACIÓN DE PANTALLA,*,*,<srai>CONFIGURACION PANTALLA</srai>,comandos_srai.aiml
+0,ABRE LA CONFIGURACIÓN DE SEGURIDAD,*,*,<srai>CONFIGURACION SEGURIDAD</srai>,comandos_srai.aiml
+0,ABRIR LA CONFIGURACIÓN,*,*,<srai>CONFIGURACION</srai>,comandos_srai.aiml
+0,ABRIR LA CONFIGURACION,*,*,<srai>CONFIGURACION</srai>,comandos_srai.aiml
+0,ABRIR LA CONFIGURACIÓN DEL WIFI,*,*,<srai>CONFIGURACION WIFI</srai>,comandos_srai.aiml
+0,ABRIR LA CONFIGURACION DEL WIFI,*,*,<srai>CONFIGURACION WIFI</srai>,comandos_srai.aiml
+0,ABRIR LA CONFIGURACIÓN DEL MODO AVIÓN,*,*,<srai>CONFIGURACION MODO AVION</srai>,comandos_srai.aiml
+0,ABRIR LA CONFIGURACION DEL MODO AVION,*,*,<srai>CONFIGURACION MODO AVION</srai>,comandos_srai.aiml
+0,ABRIR LA CONFIGURACIÓN DEL MODO AVION,*,*,<srai>CONFIGURACION MODO AVION</srai>,comandos_srai.aiml
+0,ABRIR LA CONFIGURACION DEL MODO AVIÓN,*,*,<srai>CONFIGURACION MODO AVION</srai>,comandos_srai.aiml
+0,ABRIR LA CONFIGURACIÓN DEL BLUETOOTH,*,*,<srai>CONFIGURACION BLUETOOTH</srai>,comandos_srai.aiml
+0,ABRIR LA CONFIGURACION DEL BLUETOOTH,*,*,<srai>CONFIGURACION BLUETOOTH</srai>,comandos_srai.aiml
+0,ABRIR LA CONFIGURACIÓN DE FECHA,*,*,<srai>CONFIGURACION FECHA</srai>,comandos_srai.aiml
+0,ABRIR LA CONFIGURACION DE FECHA,*,*,<srai>CONFIGURACION FECHA</srai>,comandos_srai.aiml
+0,ABRIR LA CONFIGURACIÓN DE TECLADO,*,*,<srai>CONFIGURACION TECLADO</srai>,comandos_srai.aiml
+0,ABRIR LA CONFIGURACIÓN DE PANTALLA,*,*,<srai>CONFIGURACION PANTALLA</srai>,comandos_srai.aiml
+0,ABRIR LA CONFIGURACIÓN DE SEGURIDAD,*,*,<srai>CONFIGURACION SEGURIDAD</srai>,comandos_srai.aiml
+0,CONFIGURACIÓN DEL DISPOSITIVO,*,*,<srai>CONFIGURACION</srai>,comandos_srai.aiml
+0,ABRE CONFIGURACIÓN DEL DISPOSITIVO,*,*,<srai>CONFIGURACION</srai>,comandos_srai.aiml
+0,ABRIR CONFIGURACIÓN DEL DISPOSITIVO,*,*,<srai>CONFIGURACION</srai>,comandos_srai.aiml
+0,CONFIGURACION DEL DISPOSITIVO,*,*,<srai>CONFIGURACION</srai>,comandos_srai.aiml
+0,ABRE CONFIGURACION DEL DISPOSITIVO,*,*,<srai>CONFIGURACION</srai>,comandos_srai.aiml
+0,ABRIR CONFIGURACION DEL DISPOSITIVO,*,*,<srai>CONFIGURACION</srai>,comandos_srai.aiml
+0,AJUSTES,*,*,<srai>CONFIGURACION</srai>,comandos_srai.aiml
+0,AJUSTES DEL DISPOSITIVO,*,*,<srai>CONFIGURACION</srai>,comandos_srai.aiml
+0,ABRE AJUSTES DEL DISPOSITIVO,*,*,<srai>CONFIGURACION</srai>,comandos_srai.aiml
+0,ABRIR AJUSTES DEL DISPOSITIVO,*,*,<srai>CONFIGURACION</srai>,comandos_srai.aiml

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gus.proyectofinandroid.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/menu_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginBottom="50dp"
+        app:fab_labelStyle="@style/etiquetas"
+        fab:fab_addButtonColorNormal="?attr/colorPrimary"
+        fab:fab_addButtonSize="normal"
+        fab:fab_labelsPosition="left">
+
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/submenu_cmd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="?attr/colorPrimaryDark"
+            fab:fab_icon="@drawable/cmd"
+            fab:fab_size="mini"
+            fab:fab_title="CMD" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/submenu_ocr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="?attr/colorPrimaryDark"
+            fab:fab_icon="@drawable/camera"
+            fab:fab_size="mini"
+            fab:fab_title="OCR" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/submenu_voz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="?attr/colorPrimaryDark"
+            fab:fab_icon="@drawable/microphone"
+            fab:fab_size="mini"
+            fab:fab_title="VOZ" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/submenu_speak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="?attr/colorPrimaryDark"
+            fab:fab_size="mini"
+            fab:fab_title="SPEAK" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</android.support.design.widget.CoordinatorLayout>

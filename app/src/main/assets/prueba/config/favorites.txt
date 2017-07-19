@@ -1,0 +1,10 @@
+deportefavorito:unknown
+platofavorito:
+peliculafavorita:
+heladofavorito:
+librofavorito:
+actorfavorito:
+actrizfavorita:
+cancionfavorita:
+grupofavorito:
+cantantefavorito:

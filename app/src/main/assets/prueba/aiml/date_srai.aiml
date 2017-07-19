@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+	<category>
+		<pattern>EN QUÉ AÑO ESTAMOS</pattern>
+		<template>
+			<srai>AÑO</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>EN QUE AÑO ESTAMOS</pattern>
+		<template>
+			<srai>AÑO</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>EN QUÉ MES ESTAMOS</pattern>
+		<template>
+			<srai>MES</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>EN QUE MES ESTAMOS</pattern>
+		<template>
+			<srai>MES</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>QUÉ DÍA ES HOY</pattern>
+		<template>
+			<srai>DÍA</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>QUÉ DIA ES HOY</pattern>
+		<template>
+			<srai>DÍA</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>QUE DÍA ES HOY</pattern>
+		<template>
+			<srai>DÍA</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>QUE DIA ES HOY</pattern>
+		<template>
+			<srai>DÍA</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>QUÉ HORA ES</pattern>
+		<template>
+			<srai>HORA</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>QUE HORA ES</pattern>
+		<template>
+			<srai>HORA</srai>
+		</template>
+	</category>
+</aiml>

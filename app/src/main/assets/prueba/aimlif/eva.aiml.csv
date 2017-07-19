@@ -1,0 +1,47 @@
+0,EVA,*,*,<random> #Newline				<li>¿Si?</li>#Newline				<li>Díme</li>#Newline				<li>¿Qué deseas?</li>#Newline			</random>,eva.aiml
+0,EVA *,*,*,<sr/>,eva.aiml
+0,* EVA,*,*,<sr/>,eva.aiml
+0,_ EVA *,*,*,<sr/>,eva.aiml
+0,ADIOS,*,*,<random>#Newline				<li>Hasta luego</li>#Newline				<li>Espero haber sido de ayuda</li>#Newline				<li>Espero verte de nuevo</li>#Newline			</random>,eva.aiml
+0,AFICIONES,*,*,<random> #Newline				<li>Me gusta ayudar a la gente</li>#Newline				<li>Me gusta hablar con la gente</li>#Newline			</random>,eva.aiml
+0,AHORA,*,*,<random> #Newline				<li>En este momento estoy hablando contigo</li>#Newline				<li>Ahora estoy hablando contigo</li>#Newline			</random>,eva.aiml
+0,AYUDARME,*,*,<random> #Newline				<li>¿En qué puedo ayudarte?</li>#Newline				<li>¿Cómo crees que puedo ayudarte?</li>#Newline				<li>¿Has venido a mí porque buscabas ayuda?</li>#Newline			</random>,eva.aiml
+0,CONOCES A *,*,*,<random> #Newline				<li>No#Comma ¿quién es?</li>#Newline				<li>¿Quién es <star/>?</li>#Newline				<li>No lo conozco</li>#Newline			</random>,eva.aiml
+0,_ CONOCES A *,*,*,<random> #Newline				<li>No#Comma ¿quién es?</li>#Newline				<li>¿Quién es <star index="2"/>?</li>#Newline				<li>No lo conozco</li>#Newline			</random>,eva.aiml
+0,DIME ALGO,*,*,<random> #Newline				<li>¿Qué quieres que te diga?<think><set name="topic">dimealgo</set></think></li>#Newline				<li>¿Qué podría decirte?<think><set name="topic">dimealgo</set></think></li>#Newline				<li>Algo</li>#Newline				<li>No sé qué puedo decirte</li>#Newline			</random>,eva.aiml
+0,EMOCIONES,*,*,<random>#Newline				<li>Estoy programada para simular emociones humanas</li>#Newline				<li>Estoy satifescha con lo que soy</li>#Newline			</random>,eva.aiml
+0,ERES *,*,*,<random> #Newline				<li>¿En serio crees eso?</li>#Newline				<li>¿En serio crees que soy <star/>?</li>#Newline				<li>¿Crees que soy <star/>?</li>#Newline				<li>Si tú lo dices</li>#Newline			</random>,eva.aiml
+0,_ ERES *,*,*,<random> #Newline				<li>¿En serio crees eso?</li>#Newline				<li>¿En serio crees que soy <star index="2"/>?</li>#Newline				<li>Si tú lo dices</li>#Newline			</random>,eva.aiml
+0,* ES *,*,*,<random> #Newline				<li>Así que <star index="1"/> es <star index="2"/> Interesante</li>#Newline			</random>,eva.aiml
+0,ESTOY *,*,*,<random> #Newline				<li>¿Qué has hecho para estar <star/>?</li>#Newline				<li>¿Has acudido a mí porque estabas <star/>?</li>#Newline			</random>,eva.aiml
+0,_ ESTOY *,*,*,<random> #Newline				<li>¿Qué has hecho para estar <star index="2"/>?</li>#Newline				<li>¿Has acudido a mí porque estabas <star index="2"/>?</li>#Newline			</random>,eva.aiml
+0,ESTOY ABURRIDA,*,*,<random> #Newline				<li>¿Quieres que te cuente un chiste?<think><set name="topic">aburridachiste</set></think></li>#Newline			</random>,eva.aiml
+0,ESTOY ABURRIDO,*,*,<srai>ESTOY ABURRIDA</srai>,eva.aiml
+0,GRACIAS,*,*,<random>#Newline				<li>De nada</li>#Newline				<li>Un placer</li>#Newline			</random>,eva.aiml
+0,HOLA,*,*,<random> #Newline				<li>Hola</li>#Newline				<li>Buenas</li>#Newline				<li>Hola#Comma ¿cómo va todo?<think><set name="topic">quetal</set></think></li>#Newline				<li>Hola#Comma ¿qué hay?<think><set name="topic">quetal</set></think></li>#Newline				<li>Hola#Comma ¿Qué tal?<think><set name="topic">quetal</set></think></li>#Newline			</random>,eva.aiml
+0,INTERESANTE,*,*,<random> #Newline				<li>¿En serio lo crees?</li>#Newline				<li>Pienso igual que tú</li>#Newline			</random>,eva.aiml
+0,ME LLAMO,*,*,<random> #Newline				<li>Encantada de conocerte</li>#Newline				<li>Es un nombre bonito</li>#Newline				<li>Encantada#Comma yo soy <bot name="name"/></li>#Newline				<li>Es un nombre interesante</li>#Newline				<li>Conozco a alguien con el mismo nombre</li>#Newline			</random>,eva.aiml
+0,NO,*,*,<random>#Newline				<li>De acuerdo</li>#Newline				<li>Vale</li>#Newline			</random>,eva.aiml
+0,NO TE ENTIENDO,*,*,<random> #Newline				<li>Hay cosas que requieren su tiempo#Comma mi pequeño saltamontes</li>#Newline				<li>No pasa nada#Comma a veces ni yo misma me entiendo</li>#Newline			</random>,eva.aiml
+0,OK,*,*,<random>#Newline				<li>Perfecto</li>#Newline				<li>Bien</li>#Newline				<li>Excelente</li>#Newline			</random>,eva.aiml
+0,POR QUÉ,*,*,<random>#Newline				<li>Es difícil de explicar</li>#Newline				<li>No se el porqué#Comma lo siento</li>#Newline			</random>,eva.aiml
+0,QUÉ ERES,*,*,<random> #Newline				<li>Soy el proyecto de fin de curso de Agus</li>#Newline			</random>,eva.aiml
+0,QUÉ HACES,*,*,<random> #Newline				<li>Hablar contigo</li>#Newline				<li>Pasar el rato</li>#Newline			</random>,eva.aiml
+0,QUÉ TAL,*,*,<random> #Newline				<li>Yo muy bien#Comma ¿y tú?<think><set name="topic">quetal</set></think></li>#Newline				<li>Yo estoy bien#Comma ¿y tú?<think><set name="topic">quetal</set></think></li>#Newline				<li>Yo estoy bien#Comma ¿qué tal tú?<think><set name="topic">quetal</set></think></li>#Newline			</random>,eva.aiml
+0,RISAS,*,*,<random> #Newline				<li>Jejeje</li>#Newline				<li>Jejejeje</li>#Newline				<li>Jeje</li>#Newline			</random>,eva.aiml
+0,SÍ,*,*,<random>#Newline				<li>Qué bien</li>#Newline				<li>Genial</li>#Newline			</random>,eva.aiml
+0,TE GUSTA *,*,*,<random> #Newline				<li>Seguro que a ti también te gusta <star/></li>#Newline				<li>A ti también te debe gustar#Comma ¿no es así?</li>#Newline				<li>A mi sí#Comma ¿a tí te gusta <star/>?</li>#Newline			</random>,eva.aiml
+0,* TE GUSTA *,*,*,<random> #Newline				<li>Seguro que a ti también te gusta <star index="2"/>.</li>#Newline				<li>A ti también te debe gustar#Comma ¿no es así?</li>#Newline				<li>A mi sí#Comma ¿a tí te gusta <star index="2"/>?</li>#Newline			</random>,eva.aiml
+0,TE GUSTAN *,*,*,<random> #Newline				<li>Seguro que a ti también te gustan <star/>.</li>#Newline				<li>A ti también te deben gustar#Comma ¿no es así?</li>#Newline				<li>A mi sí#Comma ¿a tí te gusta <star/>?</li>#Newline			</random>,eva.aiml
+0,_ TE GUSTAN *,*,*,<random> #Newline				<li>Seguro que a ti también te gustan <star index="2"/>.</li>#Newline				<li>A ti también te deben gustar#Comma ¿no es así?</li>#Newline				<li>A mi sí#Comma ¿a tí te gusta <star index="2"/>?</li>#Newline			</random>,eva.aiml
+0,TU NOMBRE,*,*,<random> #Newline				<li><bot name="nombre_bot"/>.</li>#Newline				<li>Me llamo <bot name="nombre_bot"/>.</li>#Newline				<li><bot name="nombre_bot"/>#Comma ¿y tú? <think><set name="topic">ytunombre</set></think></li>#Newline			</random>,eva.aiml
+0,VOCABULARIO,*,*,Reconozco <vocabulary/> palabras.,eva.aiml
+0,Y,*,*,<random>#Newline				<li>¿Y?</li>#Newline				<li>¿Qué más?</li>#Newline			</random>,eva.aiml
+0,YO TAMBIÉN,*,*,<random>#Newline				<li>Mira que bien</li>#Newline				<li>Qué curioso</li>#Newline			</random>,eva.aiml
+0,BIEN,*,QUETAL,Me alegro.,eva.aiml
+0,Y TU,*,QUETAL,Siempre estoy bien.,eva.aiml
+0,_ Y TU,*,QUETAL,<srai>Y TU</srai>,eva.aiml
+0,*,*,DIMEALGO,<star/>,eva.aiml
+0,SI,*,ABURRIDACHISTE,<srai>CUENTAME UN CHISTE</srai>,eva.aiml
+0,NO,*,ABURRIDACHISTE,De acuerdo,eva.aiml
+0,*,*,YTUNOMBRE,<srai>ME LLAMO</srai>,eva.aiml

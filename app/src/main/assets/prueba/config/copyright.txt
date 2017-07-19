@@ -1,0 +1,17 @@
+File: chatprueba
+Author: Agus
+Last modified: 18/03/17
+
+This AIML file is part of the super 0.0.1 chat bot knowledge base.
+
+The super brain is Copyright &copy; 2017 by Agus.
+
+The super brain is released under the terms of the GNU Lesser General
+Public License, as published by the Free Software Foundation.
+
+This file is distributed WITHOUT ANY WARRANTY; without even the 
+implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
+
+For more information see #
+
+

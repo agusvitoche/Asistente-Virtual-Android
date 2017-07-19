@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imgComando"
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        app:srcCompat="@mipmap/ic_launcher_round"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="7dp"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="86dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTitleCmd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtTitleCmd"
+            android:layout_toEndOf="@+id/txtTitleCmd"
+            android:layout_toRightOf="@+id/txtTitleCmd"
+            android:layout_weight="1"
+            android:text="@string/item_cmd_title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="7dp" />
+
+        <TextView
+            android:id="@+id/txtSubCmd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgComando"
+            android:layout_toEndOf="@+id/imgComando"
+            android:layout_toRightOf="@+id/imgComando"
+            android:layout_weight="1"
+            android:text="@string/item_cmd_submenu"
+            tools:layout_editor_absoluteX="252dp"
+            tools:layout_editor_absoluteY="67dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
